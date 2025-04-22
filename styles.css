@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      "home home home"
+      "about services contact"
+      "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .home {
+    color: darkblue;
+    grid-area: home;
+    background-color: rgb(130, 235, 245);
+    padding: 20px;
+  }
+  
+  .about {
+    grid-area: about;
+    background-color: purple;
+    color: rgb(246, 250, 6);
+    padding: 20px;
+  }
+  
+  .services {
+    color: antiquewhite;
+    grid-area: services;
+    background-color: rgb(2, 51, 71);
+    padding: 20px;
+  }
+  
+  .contact {
+    grid-area: contact;
+    background-color: pink;
+    padding: 20px;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+  }
+  
